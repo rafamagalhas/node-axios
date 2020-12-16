@@ -1,0 +1,22 @@
+{
+  "name": "node-axios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "rafamagalhas <magalhas.rafa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11"
+  }
+}
